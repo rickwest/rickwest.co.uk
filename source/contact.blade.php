@@ -5,7 +5,7 @@
     @include('_partials.navigation')
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('/assets/images/contact-bg.jpg')">
+    <header class="masthead" style="background-image: url('/assets/images/backgrounds/contact-bg.jpg')">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -52,8 +52,6 @@
             </div>
         </div>
     </div>
-
-    <hr>
 
     <!-- Footer -->
     @include('_partials/footer')

@@ -14,6 +14,9 @@
                     <a class="nav-link" href="/about">About</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="/newsletter">Newsletter</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/contact">Contact</a>
                 </li>
             </ul>

@@ -9,6 +9,7 @@ return [
     'collections' => [
         // Posts collection sorted by date and in descending order (latest post at the top)
         'posts' => [
+            'path' => '{filename}',
             'sort' => '-date'
         ]
     ],

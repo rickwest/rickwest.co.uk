@@ -10,7 +10,7 @@ pagination:
     @include('_partials.navigation')
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('/assets/images/home-bg.jpg')">
+    <header class="masthead" style="background-image: url('/assets/images/backgrounds/home-bg.jpg')">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -56,8 +56,6 @@ pagination:
             </div>
         </div>
     </div>
-
-    <hr>
 
     <!-- Footer -->
     @include('_partials/footer')

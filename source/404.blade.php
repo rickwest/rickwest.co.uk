@@ -6,7 +6,7 @@ permalink: 404.html
 
 @section('body')
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('/assets/images/post-bg.jpg')">
+    <header class="masthead" style="background-image: url('/assets/images/backgrounds/post-bg.jpg')">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">

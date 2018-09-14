@@ -27,16 +27,15 @@
                 <div class="col-lg-8 col-md-10 mx-auto">
                     @yield('content')
                     @if ($page->getNext())
-                        <p>Read my next post:
-                            <a href="{{ $page->getNext()->getPath() }}">{{ $page->getNext()->title }}</a>
+                        <p><strong>Read my next post:
+                                <a href="{{ $page->getNext()->getPath() }}">{{ $page->getNext()->title }}</a>
+                            </strong>
                         </p>
                     @endif
                 </div>
             </div>
         </div>
     </article>
-
-    <hr>
 
     <!-- Footer -->
     @include('_partials/footer')
