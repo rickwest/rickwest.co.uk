@@ -5,7 +5,7 @@
                 <ul class="list-inline text-center">
                     @foreach($page->socials as $social)
                         <li class="list-inline-item">
-                            <a href="{{ $social->link }}" target="_blank">
+                            <a href="{{ $social->link }}" target="{{ $social->target ? $social->target : '_blank' }}">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="{{ $social->icon }} fa-stack-1x fa-inverse"></i>

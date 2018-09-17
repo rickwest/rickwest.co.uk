@@ -37,5 +37,10 @@ return [
             'link' => 'https://github.com/rickwest',
             'icon' => 'fab fa-github',
         ],
+        'email' => [
+            'link' => 'mailto:rickwestdev@gmail.com',
+            'icon' => 'fas fa-envelope',
+            'target' => '_self',
+        ],
     ],
 ];
