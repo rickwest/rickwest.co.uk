@@ -35,7 +35,7 @@ pagination:
                                 {{ $post->title }}
                             </h2>
                             <h3 class="post-subtitle">
-                                {{ $post->subtitle ? $post->subtitle : strip_tags(substr($post, 0, 125)) . '...' }}
+                                {{ $post->excerpt ? $post->excerpt : strip_tags(substr($post, 0, 125)) . '...' }}
                             </h3>
                         </a>
                         <p class="post-meta">Posted on {{ date('F jS, Y', $post->date) }}</p>

@@ -2,6 +2,7 @@
 extends: _layouts.post
 image: /assets/images/backgrounds/ubuntu-bg.jpg
 title: Add Flash to Chromium on Ubuntu 16.04
+excerpt: Easily add Flash to Chromium with Jonathon F's back-port of pepperflashplugin-nonfree with direct download of Flash from Adobe instead of using Chrome RPM.
 date: 2017-07-29
 section: content
 ---
