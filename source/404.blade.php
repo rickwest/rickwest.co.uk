@@ -25,7 +25,7 @@ permalink: 404.html
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <p>Looks like you've followed a broken link or entered a URL that doesn't exist on this site.</p>
-                <p><a href="/">&larr; Back to our site</a></p>
+                <p><a href="/">&larr; Back to my site</a></p>
             </div>
         </div>
     </div>
