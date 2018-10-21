@@ -1,9 +1,9 @@
 ---
 extends: _layouts.post
 image: /assets/images/backgrounds/mic-bg.jpg
-title: Podcasts for Programmers
+title: Podcasts for Programmers 🎙
 subtitle: The beginners! My top 5 podcasts for new developers.
-excerpt: My top 5, favourite web development related podcasts for people new to web development - and podcasts!
+excerpt: My top 5 podcasts for people new to web development...and podcasts!
 date: 2017-07-26
 section: content
 ---
