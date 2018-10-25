@@ -15,7 +15,7 @@ return [
     ],
 
     // Number of collection items to show per page
-    'perPage' => 5,
+    'perPage' => 10,
 
     // The email address to send the https://formspree.io/ contact form submissions to
     'email' => '',
@@ -43,4 +43,6 @@ return [
             'target' => '_self',
         ],
     ],
+
+    'newsletter' => 'https://tinyletter.com/rickwest'
 ];

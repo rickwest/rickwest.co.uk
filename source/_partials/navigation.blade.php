@@ -14,7 +14,7 @@
                     <a class="nav-link" href="/about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://tinyletter.com/rickwest">Newsletter</a>
+                    <a class="nav-link" href="{{ $page->newsletter }}">Newsletter</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href={{ $page->socials->email->link }}>Contact</a>

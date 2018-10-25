@@ -26,9 +26,17 @@
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     @yield('content')
+                    <hr>
                     @if ($page->getNext())
-                        <p><strong>Read my next post:
-                                <a href="{{ $page->getNext()->getPath() }}">{{ $page->getNext()->title }}</a>
+                        <p>
+                            <strong>
+                                If you enjoyed this post and are interested in similar stuff, check out my next post:
+                                <a href="{{ $page->getNext()->getPath() }}">{{ $page->getNext()->title }}.</a>
+                            </strong>
+                        </p>
+                        <p>
+                            <strong>
+                                Want this and other exclusive content delivered straight to your inbox? <a href="{{ $page->newsletter }}">Sign up for my newsletter</a> 📰.
                             </strong>
                         </p>
                     @endif
