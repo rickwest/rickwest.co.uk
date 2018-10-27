@@ -2,8 +2,8 @@
 
 return [
     // Replace with the baseUrl of your site. For example, https://jigsaw-clean-blog.netlify.com
-    'baseUrl' => '',
-    'production' => false,
+    'baseUrl' => 'https://rickwest.netlify.com',
+    'production' => true,
 
 
     'collections' => [
