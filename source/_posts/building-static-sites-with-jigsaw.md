@@ -82,6 +82,7 @@ These components include the Blade templating engine, Collections and Laravel Mi
 
 >“Static sites for Laravel developers.
 Jigsaw is a framework for rapidly building static sites using the same modern tooling that powers your web application.”
+
 Considering all this, it was no surprise to me that Jigsaw ‘feels’ a lot like Laravel. Very clean, expressive syntax, easy to set up, infinitely powerful and everything ‘just works’ 😊.
 
 Let’s face it, the Laravel blueprint is a tried and tested one, it’s the most popular backend framework for a reason. So with Jigsaw utilizing Laravel components and embodying the Laravel ethos, it is definitely off to a great start.
