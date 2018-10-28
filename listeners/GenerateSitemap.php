@@ -15,7 +15,7 @@ class GenerateSitemap
 
         collect($jigsaw->getOutputPaths())->each(function ($path) use ($baseUrl, $sitemap) {
 
-            if (! $this->isAsset($path)) {
+            if (! $this->isAsset($path) && ! $this->isExcludable($path)) {
                 $sitemap->addItem($baseUrl . $path, time(), Sitemap::DAILY);
             }
         });
@@ -26,5 +26,13 @@ class GenerateSitemap
     public function isAsset($path)
     {
         return starts_with($path, '/assets');
+    }
+
+    private $exclude = [
+        '404.html',
+    ];
+
+    public function isExcludable($path) {
+        return in_array($path, $this->exclude);
     }
 }
