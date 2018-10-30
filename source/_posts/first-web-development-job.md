@@ -1,6 +1,6 @@
 ---
 extends: _layouts.post
-image: /assets/images/backgrounds/computer-bg.jpg
+image: /assets/images/backgrounds/leap-bg.jpg
 title: Getting my first Web Development job
 subtitle: How I convinced an employer to take a chance on me and pay me to learn to code.
 date: 2017-06-06
