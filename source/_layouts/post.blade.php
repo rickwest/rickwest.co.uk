@@ -34,12 +34,12 @@
                                 <a href="{{ $page->getNext()->getPath() }}">{{ $page->getNext()->title }}.</a>
                             </strong>
                         </p>
-                        <p>
-                            <strong>
-                                Want this and other exclusive content delivered straight to your inbox? <a href="{{ $page->newsletter }}">Sign up for my newsletter</a> 📰.
-                            </strong>
-                        </p>
                     @endif
+                    <p>
+                        <strong>
+                            Want this and other exclusive content delivered straight to your inbox? <a href="{{ $page->newsletter }}">Sign up for my newsletter</a> 📰.
+                        </strong>
+                    </p>
                 </div>
             </div>
         </div>
