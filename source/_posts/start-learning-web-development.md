@@ -62,7 +62,7 @@ But once you get that truck rolling, it gets easier and easier, until you find y
 
 If your learning style is more suited towards video tutorials then also check out some of the HTML and CSS courses that can be found on YouTube.
 
-I can personally recommend these two free Udemy courses by Edwin [Edwin Diaz](https://www.udemy.com/html-and-css-for-beginners-crash-course-learn-fast-easy/) and [Brad Hussey](https://www.udemy.com/bootstrap-4/). Both are great instructors (if not a little quirky). And both courses will cover setting up your development environment, downloading a text editor (I like Sublime and Brackets), and building an actual project.
+I can personally recommend these two free Udemy courses by [Edwin Diaz](https://www.udemy.com/html-and-css-for-beginners-crash-course-learn-fast-easy/) and [Brad Hussey](https://www.udemy.com/bootstrap-4/). Both are great instructors (if not a little quirky). And both courses will cover setting up your development environment, downloading a text editor (I like Sublime and Brackets), and building an actual project.
 
 A quick word of warning: while Udemy is great, don’t getting sucked in to buying loads of courses. At this early stage, there is no need to be spending any money on learning resources. There’s no shortage of awesome stuff that is available completely free. And this early on, you probably aren’t 100% sure what you want to learn anyway.
 
