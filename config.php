@@ -22,6 +22,8 @@ return [
 
     // The name of the site. This is used in the nav and footer
     'siteName' => 'rickwest.co.uk',
+    'siteDescription' => '',
+    'siteAuthor' => 'Rick West',
 
     // Social media links/icons that are used in the footer, add as many as you like!
     'socials' => [
