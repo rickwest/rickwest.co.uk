@@ -42,6 +42,6 @@ class GenerateFeed
                 ->appendTo($channel);
             });
 
-        $jigsaw->writeOutputFile('feed', $feed->render());
+        $jigsaw->writeOutputFile('feed.xml', $feed->render());
     }
 }
