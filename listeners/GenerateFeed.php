@@ -20,7 +20,7 @@ class GenerateFeed
             ->title($config['siteName'])
             ->description($config['siteDescription'])
             ->url($config['baseUrl'])
-            ->feedUrl($config['baseUrl'] . '/feed')
+            ->feedUrl($config['baseUrl'] . '/feed.xml')
             ->language('en-GB')
             ->copyright('Copyright © '. $config['siteName'] . ' ' . (new \DateTime())->format('Y'))
             ->pubDate((new \DateTime())->getTimestamp())
