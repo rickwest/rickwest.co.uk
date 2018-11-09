@@ -36,7 +36,7 @@ class GenerateFeed
                 ->contentEncoded($post)
                 ->url($post->getUrl())
                 ->author($config['siteAuthor'])
-                ->pubDate(strtotime($post->date))
+                ->pubDate(\DateTime::createFromFormat('Y-m-d', $post->date))
                 ->guid($post->getUrl(), true)
                 ->preferCdata(true) // By this, title and description become CDATA wrapped HTML.
                 ->appendTo($channel);
