@@ -1,6 +1,6 @@
 ---
 extends: _layouts.post
-image: /assets/images/backgrounds/jigsaw-home-dark.png
+image: /assets/images/backgrounds/jigsaw-home-dark-bg.png
 title: Jigsaw — the Laravel Static Site Generator.
 subtitle: My interview with Keith Damiani, Senior Developer at Tighten and Lead Developer on the Jigsaw project.
 excerpt: My interview with Keith Damiani, Senior Developer at Tighten and Lead Developer on the Jigsaw project. I asked Keith some questions about the development of Jigsaw and the plans for the future.
