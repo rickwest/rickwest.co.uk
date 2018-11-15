@@ -6,3 +6,7 @@
 
 [build.environment]
   PHP_VERSION = "7.2"
+
+[[redirects]]
+from = "/feed"
+to = "/feed.xml"
