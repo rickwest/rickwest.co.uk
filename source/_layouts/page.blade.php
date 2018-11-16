@@ -1,19 +1,18 @@
----
-permalink: 404.html
----
-
 @extends('_layouts.master')
 
 @section('body')
+    <!-- Navigation -->
+    @include('_partials.navigation')
+
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('/assets/images/backgrounds/post-bg.jpg')">
+    <header class="masthead" style="background-image: url({{ $page->image }})">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="page-heading">
-                        <h1>404</h1>
-                        <span class="subheading">Page lost in space!</span>
+                        <h1>{{ $page->title }}</h1>
+                        <span class="subheading">{{ $page->subtitle }}</span>
                     </div>
                 </div>
             </div>
@@ -24,13 +23,10 @@ permalink: 404.html
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
-                <p>Looks like you've followed a broken link or entered a URL that doesn't exist on this site.</p>
-                <p><a href="/">&larr; Back to my site</a></p>
+                @yield('content')
             </div>
         </div>
     </div>
-
-    <hr>
 
     <!-- Footer -->
     @include('_partials/footer')
