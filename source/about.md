@@ -1,6 +1,6 @@
 ---
 extends: _layouts.page
-image: /assets/images/backgrounds/about-bg.jpg
+image: /assets/images/backgrounds/home-2-bg.jpg
 title: About Me
 subtitle: Dad. Husband. Developer. Heating Engineer. Human. 
 section: content
