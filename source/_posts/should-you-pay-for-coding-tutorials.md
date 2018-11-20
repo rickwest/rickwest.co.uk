@@ -1,6 +1,6 @@
 ---
 extends: _layouts.post
-image: /assets/images/backgrounds/answering-questions-is-just-as-important-as-asking-them.jpg
+image: /assets/images/backgrounds/should-you-pay-for-coding-tutorials.jpg
 title: Should you be paying for coding tutorials?
 excerpt: To pay or not to pay: are the best things in life — like coding courses — free?
 date: 2017-10-25
@@ -30,7 +30,7 @@ We’ve all heard the saying — “the best things in life are free”— s
 
 ## Not everything is free
 
-I’m a strong believer that learning the basics of coding, like html, CSS, or (insert programming language here) can be free and accessible for everyone. Sites like Codecademy, freeCodeCamp, Coursera, and Khan Academy all offer free tutorials to help people get started. There are also many community blogs and resources that all teach the basics for free.
+I’m a strong believer that learning the basics of coding, like html, CSS, or (insert programming language here) can be free and accessible for everyone. Sites like [Codecademy](https://www.codecademy.com/), [freeCodeCamp](https://www.freecodecamp.org/), [Coursera](https://www.coursera.org/), and [Khan Academy](https://www.khanacademy.org/) all offer free tutorials to help people get started. There are also many community blogs and resources that all teach the basics for free.
 
 So why do people gravitate towards the plethora of paid courses on sites like Udemy? I think that it’s just our nature as humans. We look for the easy, quick, shortcut.
 
