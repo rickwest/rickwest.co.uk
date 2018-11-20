@@ -2,7 +2,7 @@
 extends: _layouts.post
 image: /assets/images/backgrounds/should-you-pay-for-coding-tutorials.jpg
 title: Should you be paying for coding tutorials?
-excerpt: To pay or not to pay: are the best things in life — like coding courses — free?
+excerpt: To pay or not to pay. Are the best things in life, like coding courses, free?
 date: 2017-10-25
 section: content
 ---
