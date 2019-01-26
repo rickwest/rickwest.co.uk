@@ -54,5 +54,10 @@ return [
         ]
     ],
 
-    'newsletter' => 'https://tinyletter.com/rickwest'
+    'newsletter' => 'https://tinyletter.com/rickwest',
+
+    'readingTime' => function($post) {
+        $mins = round(str_word_count(strip_tags($post)) / 200);
+        return implode('', array_fill(0, round($mins / 5),'☕')) . ' ' . $mins . ' min read';
+    }
 ];
