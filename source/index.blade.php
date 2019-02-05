@@ -17,7 +17,7 @@ subtitle: Dad. Husband. Developer. Heating Engineer. Human.
                 {{ $post->excerpt ? $post->excerpt : strip_tags(substr($post, 0, 125)) . '...' }}
             </h3>
         </a>
-        <p class="post-meta">Posted on {{ date('F jS, Y', $post->date) }}</p>
+        <p class="post-meta">{{ date('F jS, Y', $post->date) }} &bull; {{ $post->readingTime($post) }}</p>
     </div>
     <hr>
     @endforeach
