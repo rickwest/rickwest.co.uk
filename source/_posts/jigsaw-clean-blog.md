@@ -14,7 +14,7 @@ Ok, so this isn't actually as exciting as it sounds. I basically just rebuilt my
 
 Deciding I wanted to move my blog away from Wordpress and towards a more lightweight, developer oriented static site generator, Jigsaw was the obvious choice for so many reasons that I previously discussed [here](/building-static-sites-with-jigsaw/).
 
-The only downside, moving to JIgsaw, was the initial 'development' of the blog itself. I say downside, but being an enthusiastic developer, I actually enjoyed the process. However, I can see how that initial hurdle and time commitment might put some people off making the switch. It's hard enough finding the time to actually write a blog post, never mind move the blog to a new platform and make it look pretty.  We all lead busy lives after all! 
+The only downside, moving to Jigsaw, was the initial 'development' of the blog itself. I say downside, but being an enthusiastic developer, I actually enjoyed the process. However, I can see how that initial hurdle and time commitment might put some people off making the switch. It's hard enough finding the time to actually write a blog post, never mind move the blog to a new platform and make it look pretty.  We all lead busy lives after all! 
 
 Not only that, but it's safe to say that we don't all have an eye for design, I certainly don't! However, I had recently stumbled across [Nuno Maduro's blog](https://nunomaduro.com/), and really liked the clean look of it, so I decided to port the [Startbootstrap Clean Blog](https://startbootstrap.com/themes/clean-blog/) over to Jigsaw and use that myself, on this very website 😊.
 
