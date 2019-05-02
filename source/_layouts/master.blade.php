@@ -42,7 +42,6 @@
         <link rel="canonical" href="{{ $page->getUrl() }}" />
 
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-        <script src="{{ mix('js/turbolinks.js', 'assets/build') }}" type="text/javascript"></script>
     </head>
     <body>
         @yield('body')
