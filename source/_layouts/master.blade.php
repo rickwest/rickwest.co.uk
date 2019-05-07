@@ -17,7 +17,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
+        <title>{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}</title>
 
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
@@ -26,12 +26,12 @@
         <meta name="description" content="{{ $page->description ?? $page->excerpt ?? $page->siteDescription }}">
         <meta name="image" content="{{ $page->image ? $page->baseUrl . $page->image : $page->baseUrl . '/assets/images/backgrounds/home-bg.jpg' }}">
         <!-- Schema.org for Google -->
-        <meta itemprop="name" content="{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}">
+        <meta itemprop="name" content="{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}">
         <meta itemprop="description" content="{{ $page->description ?? $page->excerpt ?? $page->siteDescription }}">
         <meta itemprop="image" content="{{ $page->image ? $page->baseUrl . $page->image : $page->baseUrl . '/assets/images/backgrounds/home-bg.jpg' }}">
         <!-- Twitter -->
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}">
+        <meta name="twitter:title" content="{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}">
         <meta name="twitter:description" content="{{ $page->description ?? $page->excerpt ?? $page->siteDescription }}">
         <meta name="twitter:site" content="@rick_west8">
         <meta name="twitter:creator" content="@rick_west8">
