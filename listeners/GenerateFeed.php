@@ -1,4 +1,6 @@
-<?php namespace App\Listeners;
+<?php
+
+namespace App\Listeners;
 
 use Suin\RSSWriter\Channel;
 use Suin\RSSWriter\Feed;
@@ -11,7 +13,10 @@ class GenerateFeed
     {
         $config = $jigsaw->getConfig();
 
-        if (empty($config['baseUrl'])) return;
+        if (!$config['baseUrl']) {
+            echo("\nTo generate a rss.xml file, please specify a 'baseUrl' in config.php.\n\n");
+            return;
+        }
 
         $feed = new Feed();
 
@@ -20,7 +25,7 @@ class GenerateFeed
             ->title($config['siteName'])
             ->description($config['siteDescription'])
             ->url($config['baseUrl'])
-            ->feedUrl($config['baseUrl'] . '/feed.xml')
+            ->feedUrl(rtrim($config['baseUrl'], '/') . '/feed.xml')
             ->language('en-GB')
             ->copyright('Copyright © '. $config['siteName'] . ' ' . (new \DateTime())->format('Y'))
             ->pubDate((new \DateTime())->getTimestamp())
@@ -40,7 +45,7 @@ class GenerateFeed
                 ->guid($post->getUrl(), true)
                 ->preferCdata(true) // By this, title and description become CDATA wrapped HTML.
                 ->appendTo($channel);
-            });
+        });
 
         $jigsaw->writeOutputFile('feed.xml', $feed->render());
     }
