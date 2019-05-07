@@ -22,7 +22,7 @@ To use Jigsaw, you need to have PHP 7 and Composer installed on your machine. Yo
 
 1. Clone this repository
     ``` bash 
-    git clone https://github.com/rickwest/jigsaw-clean-blog.git
+    git clone https://github.com/rickwest/rickwest.co.uk.git
     ```
 
 2. Install PHP dependencies with Composer
