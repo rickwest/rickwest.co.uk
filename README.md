@@ -1,6 +1,19 @@
-# Jigsaw Clean Blog
+# rickwest.co.uk
 
-Jigsaw Clean Blog, as the name suggests, is a simple [Jigsaw](https://jigsaw.tighten.co/) implementation of the [Startbootstrap Clean Blog theme](https://startbootstrap.com/template-overviews/clean-blog/). See the demo [here](https://jigsaw-clean-blog.netlify.com/).
+My personal website. Sporadic thoughts about life and code 📚 https://www.rickwest.co.uk/
+
+Based on my [Jigsaw Clean Blog starter](https://github.com/rickwest/jigsaw-clean-blog), a simple [Jigsaw](https://jigsaw.tighten.co/) implementation of the [Startbootstrap Clean Blog theme](https://startbootstrap.com/template-overviews/clean-blog/).  
+
+Please, [give the starter a try](https://github.com/rickwest/jigsaw-clean-blog) and build your own site! If you do...don't forget to drop me a tweet with a link to it 😊 https://twitter.com/rick_west8     
+
+--- 
+ 
+## Bugs and Issues
+Spotted a typo or mistake? Something factually wrong or something you don't agree with? Please open an issue, and pull requests are more than welcome too! 😎
+
+---
+
+## Installation
 
 ### System Requirements
 To use Jigsaw, you need to have PHP 7 and Composer installed on your machine. You'll also need Node.js, NPM and Yarn installed in order to use Laravel Mix to compile the CSS and Javascript.
