@@ -4,22 +4,21 @@ pagination:
     collection: posts
 image: /assets/images/backgrounds/home-bg.jpg
 title: Rick West
-subtitle: Dad. Husband. Developer. Heating Engineer. Human.
 ---
 @section('content')
     @foreach ($pagination->items as $post)
-    <div class="post-preview">
-        <a href="{{ $post->getPath() }}">
-            <h2 class="post-title">
-                {{ $post->title }}
-            </h2>
-            <h3 class="post-subtitle">
-                {{ $post->excerpt ? $post->excerpt : strip_tags(substr($post, 0, 125)) . '...' }}
-            </h3>
-        </a>
-        <p class="post-meta">{{ date('F jS, Y', $post->date) }} &bull; {{ $post->readingTime($post) }}</p>
-    </div>
-    <hr>
+        <div class="post-preview">
+            <a href="{{ $post->getPath() }}">
+                <h2 class="post-title">
+                    {{ $post->title }}
+                </h2>
+                <h3 class="post-subtitle">
+                    {{ $post->getExcerpt(125) }}
+                </h3>
+            </a>
+            <p class="post-meta">{{ date('F jS, Y', $post->date) }}@if($post->showReadingTime) &bull; {{ $post->readingTime($post) }}@endif</p>
+        </div>
+        <hr>
     @endforeach
 
     <!-- Pager -->

@@ -5,7 +5,7 @@
     @include('_partials.navigation')
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url({{ $page->image }})">
+    <header class="masthead" style="background-image: url({{ $page->image ? $page->image : '/assets/images/backgrounds/computer-bg.jpg' }})">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -13,7 +13,7 @@
                     <div class="post-heading">
                         <h1>{{ $page->title }}</h1>
                         <h2 class="subheading">{{ $page->subtitle }}</h2>
-                        <span class="meta">{{ date('F jS, Y', $page->date) }} &bull; {{ $page->readingTime($page) }}</span>
+                        <span class="meta">{{ date('F jS, Y', $page->date) }}@if($page->showReadingTime) &bull; {{ $page->readingTime($page) }}@endif</span>
                     </div>
                 </div>
             </div>
