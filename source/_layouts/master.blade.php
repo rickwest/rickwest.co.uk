@@ -45,7 +45,6 @@
         <meta name="og:locale" content="en_GB">
         <meta name="og:type" content="website">
 
-        <link rel="canonical" href="{{ $page->getUrl() }}" />
         @show
 
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
