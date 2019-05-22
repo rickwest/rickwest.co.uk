@@ -6,7 +6,9 @@ subtitle: Dad. Husband. Developer. Heating Engineer. Human.
 section: content
 ---
 
-I am a web developer, from Sheffield, working at [Tonic Works](https://tonic.works) and also currently studying Software Engineering at Sheffield Hallam University, as part of a Degree Apprenticeship. 
+I am Rick West. Hi 👋. 
+
+I am a web developer, currently working at a local ecommerce company, and also currently studying Software Engineering at Sheffield Hallam University, as part of a Degree Apprenticeship. 
 
 I work primarily with PHP and the Symfony framework, as well as Javascript along with React and Redux.
 
