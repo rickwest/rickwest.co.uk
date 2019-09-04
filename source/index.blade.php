@@ -2,7 +2,7 @@
 extends: _layouts.page
 pagination:
     collection: posts
-image: /assets/images/backgrounds/home-bg.jpg
+image: /assets/images/backgrounds/hhkb.jpg
 title: Rick West
 ---
 @section('content')
