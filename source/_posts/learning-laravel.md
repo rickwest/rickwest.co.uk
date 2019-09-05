@@ -3,7 +3,7 @@ extends: _layouts.post
 image: /assets/images/backgrounds/laravel-bg.jpg
 title: I'm learning Laravel
 subtitle: ...and why I think you should too!
-excerpt: Why I'm learning Laravel (and why I think you should too!)
+excerpt: Why I'm learning Laravel...and why I think you should too!
 date: 2019-08-23
 section: content
 ---
