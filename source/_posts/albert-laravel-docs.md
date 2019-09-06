@@ -30,13 +30,13 @@ With that in mind, and inspired by Till's Alfred Workflow, I set about developin
 
 ---
 
-### Usage
+### Installation and Usage
 
 I'd love for you to check out the repo and install this extension yourself.
  
-[rickwest/albert-laravel-docs🕵](https://github.com/rickwest/albert-laravel-docs)️.
+[rickwest/albert-laravel-docs](https://github.com/rickwest/albert-laravel-docs).
 
-Following the [installation of Albert](https://albertlauncher.github.io/docs/installing/), you simply need to clone the `albert-laravel-docs` repo into your Albert Python Extensions directory and enable it in the Albert settings.
+Getting started is fairly straight forward and following the [installation of Albert](https://albertlauncher.github.io/docs/installing/), you simply need to clone the `albert-laravel-docs` repo into your Albert Python Extensions directory and enable it in the Albert settings.
 
 Searching the Laravel documentation is then just a case of opening up Albert and prefixing your search with “ld ” followed by your search query.
 
@@ -45,22 +45,26 @@ ld <query>
 ld unit testing
 ```
 
+---
+
 ### Reaping the rewards
 
 Being able to search the Laravel documentation directly form Albert is certainly a major increase in both convenience and productivity. 
 
 Also, because the extension uses the same Algolia index as the [official Laravel docs](https://laravel.com/docs/6.0), the search is very fast and accurate, most of the time I’m in the location of the documentation that I need to reference within seconds.
 
-There are still some improvements that I would like to make, such as the possibility opf improving the display of the result and the ability to search a specific Laravel version, but at the minute I'm prioritising doing some actual learning. Contributions, of course, are always more than welcome!
+There are still some improvements that I would like to make, such as the possibility of improving the display of the result and the ability to search a specific Laravel version, but at the minute I'm prioritising doing some actual learning. Contributions, of course, are always more than welcome!
 
 ### I didn't stop at Laravel
 
 Such was the improvement, in my workflow, using this extension that I also created similar doc search extensions for [Vue.js](https://vuejs.org/), [Tailwind CSS](https://tailwindcss.com/) and Tighten's [Jigsaw](https://jigsaw.tighten.co/):
 
-[rickwest/albert-vue-docs🕵](https://github.com/rickwest/albert-vue-docs) - Albert extension for searching the Vue.js documentation 🔎.
+* [rickwest/albert-vue-docs](https://github.com/rickwest/albert-vue-docs) - Albert extension for searching the Vue.js documentation.
 
-[rickwest/albert-tailwind-docs🕵](https://github.com/rickwest/albert-tailwind-docs) - Albert extension for searching the Tailwind CSS documentation 💨🔍.
+* [rickwest/albert-tailwind-docs](https://github.com/rickwest/albert-tailwind-docs) - Albert extension for searching the Tailwind CSS documentation.
 
-[rickwest/albert-jigsaw-docs🕵](https://github.com/rickwest/albert-jigsaw-docs)️ - Albert extension for searching the Jigsaw documentation 🧩.
+* [rickwest/albert-jigsaw-docs](https://github.com/rickwest/albert-jigsaw-docs)️ - Albert extension for searching the Jigsaw documentation.
+
+Get turbocharging your own workflow 🚀!
 
 It would be great to hear any feedback or suggestions, or if you know an Albert extension that I would benefit from, let's continue the conversation over on [twitter](https://twitter.com/rick_west8) ✌️. 
