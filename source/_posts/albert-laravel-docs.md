@@ -59,11 +59,11 @@ There are still some improvements that I would like to make, such as the possibi
 
 Such was the improvement, in my workflow, using this extension that I also created similar doc search extensions for [Vue.js](https://vuejs.org/), [Tailwind CSS](https://tailwindcss.com/) and Tighten's [Jigsaw](https://jigsaw.tighten.co/):
 
-<a href="https://github.com/rickwest/albert-laravel-docs"><img class="img-fluid" src="https://gh-card.dev/repos/rickwest/albert-laravel-docs.svg"></a>
+<a href="https://github.com/rickwest/albert-vue-docs"><img class="img-fluid" src="https://gh-card.dev/repos/rickwest/albert-vue-docs.svg"></a>
 
-<a href="https://github.com/rickwest/albert-laravel-docs"><img class="img-fluid" src="https://gh-card.dev/repos/rickwest/albert-laravel-docs.svg"></a>
+<a href="https://github.com/rickwest/albert-tailwind-docs"><img class="img-fluid" src="https://gh-card.dev/repos/rickwest/albert-tailwind-docs.svg"></a>
 
-<a href="https://github.com/rickwest/albert-laravel-docs"><img class="img-fluid" src="https://gh-card.dev/repos/rickwest/albert-laravel-docs.svg"></a>
+<a href="https://github.com/rickwest/albert-jigsaw-docs"><img class="img-fluid" src="https://gh-card.dev/repos/rickwest/albert-jigsaw-docs.svg"></a>
 
 Get turbocharging your own workflow 🚀!
 
