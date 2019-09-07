@@ -33,8 +33,8 @@ With that in mind, and inspired by Till's Alfred Workflow, I set about developin
 ### Installation and Usage
 
 I'd love for you to check out the repo and install this extension yourself.
- 
-[rickwest/albert-laravel-docs](https://github.com/rickwest/albert-laravel-docs).
+
+<a href="https://github.com/rickwest/albert-laravel-docs"><img class="img-fluid" src="https://gh-card.dev/repos/rickwest/albert-laravel-docs.svg"></a>
 
 Getting started is fairly straight forward and following the [installation of Albert](https://albertlauncher.github.io/docs/installing/), you simply need to clone the `albert-laravel-docs` repo into your Albert Python Extensions directory and enable it in the Albert settings.
 
@@ -59,11 +59,11 @@ There are still some improvements that I would like to make, such as the possibi
 
 Such was the improvement, in my workflow, using this extension that I also created similar doc search extensions for [Vue.js](https://vuejs.org/), [Tailwind CSS](https://tailwindcss.com/) and Tighten's [Jigsaw](https://jigsaw.tighten.co/):
 
-* [rickwest/albert-vue-docs](https://github.com/rickwest/albert-vue-docs) - Albert extension for searching the Vue.js documentation.
+<a href="https://github.com/rickwest/albert-laravel-docs"><img class="img-fluid" src="https://gh-card.dev/repos/rickwest/albert-laravel-docs.svg"></a>
 
-* [rickwest/albert-tailwind-docs](https://github.com/rickwest/albert-tailwind-docs) - Albert extension for searching the Tailwind CSS documentation.
+<a href="https://github.com/rickwest/albert-laravel-docs"><img class="img-fluid" src="https://gh-card.dev/repos/rickwest/albert-laravel-docs.svg"></a>
 
-* [rickwest/albert-jigsaw-docs](https://github.com/rickwest/albert-jigsaw-docs)️ - Albert extension for searching the Jigsaw documentation.
+<a href="https://github.com/rickwest/albert-laravel-docs"><img class="img-fluid" src="https://gh-card.dev/repos/rickwest/albert-laravel-docs.svg"></a>
 
 Get turbocharging your own workflow 🚀!
 
